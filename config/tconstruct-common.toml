@@ -29,9 +29,8 @@
 	#Set this to false to disable slime islands spawning in the world
 	generateSlimeIslands = true
 	#Generate Copper
-	generateCopper = true
+	generateCopper = false
 	#Approx Ores per Chunk
 	veinCountCobalt = 20
 	#Approx Ores per Chunk
 	veinCountCopper = 20
-

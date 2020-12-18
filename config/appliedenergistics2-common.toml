@@ -32,8 +32,8 @@
 	[features.World]
 		CertusQuartzWorldGen = true
 		VillagerTrading = true
-		SpawnPressesInMeteorites = true
-		MeteoriteWorldGen = true
+		SpawnPressesInMeteorites = false
+		MeteoriteWorldGen = false
 
 [general]
 	#Will auto-remove items that crash when being loaded from storage. This will destroy those items instead of crashing the game!
@@ -69,9 +69,9 @@
 	meteoriteDimensionWhitelist = ["minecraft:dimension"]
 	quartzOresClusterAmount = 20
 	quartzOresPerCluster = 4
-	meteoriteMaximumSpawnHeight = 180
+	meteoriteMaximumSpawnHeight = 120
 	#Range: 0.0 ~ 1.0
-	spawnChargedChance = 0.08
+	spawnChargedChance = 0.15
 
 [wireless]
 	wirelessTerminalDrainMultiplier = 1.0
@@ -136,4 +136,3 @@
 	#The speed multiplier to use when the crystals are submerged in the improved fluid.
 	#Range: 1.0 ~ 10.0
 	improvedFluidMultiplier = 2.0
-

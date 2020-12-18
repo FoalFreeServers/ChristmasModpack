@@ -1,7 +1,7 @@
 
 [Extraction]
 	#The chance that a chunk contains a fluid reservoir, default=0.5
-	reservoir_chance = 0.5
+	reservoir_chance = 0.6
 	#Number of ticks between checking for pipes below pumpjack if required, default=100 (5 secs)
 	pipe_check_ticks = 100
 	#The Flux the Pumpjack requires each tick to pump, default=1024
@@ -30,4 +30,3 @@
 	asphalt_speed = true
 	#Display chunk border while holding Core Samples, default=true
 	sample_displayBorder = true
-

@@ -2,17 +2,17 @@
 [tower]
 	#Spacing between structures
 	#Range: > 1
-	spacing = 25
+	spacing = 45
 	#Offsets the spacing of the structures randomly
 	#Range: > 0
 	offset = 6
 	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
 	is_whitelist = true
 	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
-	biomes = "#structure_gel:plains, #structure_gel:oak_forest, #structure_gel:dark_forest, #structure_gel:birch_forest, #structure_gel:mountain"
+	biomes = "#structure_gel:overworld, #structure_gel:plains, #structure_gel:oak_forest, #structure_gel:dark_forest, #structure_gel:birch_forest, #structure_gel:mountain"
 	#Chance of generating in an allowed chunk
 	#Range: 0.0 ~ 1.0
-	probability = 0.75
+	probability = 0.3
 
 [leviathan]
 	#Spacing between structures
@@ -27,7 +27,7 @@
 	biomes = "#structure_gel:desert"
 	#Chance of generating in an allowed chunk
 	#Range: 0.0 ~ 1.0
-	probability = 1.0
+	probability = 0.9
 
 [snowy_temple]
 	#Spacing between structures
@@ -42,12 +42,12 @@
 	biomes = "#structure_gel:snowy_plains, #structure_gel:snowy_spruce_forest"
 	#Chance of generating in an allowed chunk
 	#Range: 0.0 ~ 1.0
-	probability = 1.0
+	probability = 0.9
 
 [bigger_dungeon]
 	#Spacing between structures
 	#Range: > 1
-	spacing = 12
+	spacing = 22
 	#Offsets the spacing of the structures randomly
 	#Range: > 0
 	offset = 5
@@ -57,7 +57,7 @@
 	biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore"
 	#Chance of generating in an allowed chunk
 	#Range: 0.0 ~ 1.0
-	probability = 0.4
+	probability = 0.1
 
 [end_ruins]
 	#Spacing between structures
@@ -72,7 +72,7 @@
 	biomes = "#structure_gel:outer_end_island"
 	#Chance of generating in an allowed chunk
 	#Range: 0.0 ~ 1.0
-	probability = 0.8
+	probability = 0.6
 
 [warped_garden]
 	#Spacing between structures
@@ -97,4 +97,3 @@
 	is_whitelist = true
 	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
 	biomes = "minecraft:soul_sand_valley"
-
