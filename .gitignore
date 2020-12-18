@@ -7,6 +7,7 @@ minecraft_server.1.16.4.jar
 # Uncessary logs
 /crash-reports/
 /logs/
+/.mixin.out/
 
 
 # Region data
