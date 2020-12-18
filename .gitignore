@@ -1,0 +1,30 @@
+# Copyrighted files
+/libraries/
+/mods/
+forge-1.16.4-35.1.13.jar
+minecraft_server.1.16.4.jar
+
+# Uncessary logs
+/crash-reports/
+/logs/
+
+
+# Region data
+/world/astralsorcery/
+/world/data/
+/world/datapacks/
+/world/DIM1/data/
+/world/DIM1/poi/
+/world/DIM1/region/
+/world/DIM-1/data/
+/world/DIM-1/poi/
+/world/DIM-1/region/
+/world/EnderStorage/
+/world/observerlib/
+/world/playerdata
+/world/poi/
+/world/region/
+/world/icon.png
+/world/level.dat
+/world/level.dat_old
+/world/session.lock

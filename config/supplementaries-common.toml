@@ -1,0 +1,102 @@
+
+#Server side blocks configs
+[blocks]
+
+	[blocks.wall_lantern]
+		#allow wall lanterns placement
+		enabled = true
+
+	[blocks.turn_table]
+		#how many ticks it takes to rotate a block/entity
+		#Range: 1 ~ 256
+		period = 20
+
+	[blocks.cage]
+		#catchable mobs
+		cage_mobs = ["minecraft:endermite", "minecraft:slime", "minecraft:parrot", "minecraft:bee", "minecraft:magma_cube", "minecraft:vex", "minecraft:rabbit", "minecraft:cat", "minecraft:chicken", "minecraft:bat", "iceandfire:pixie"]
+
+	[blocks.speaker_block]
+		#maximum range
+		#Range: 0 ~ 256
+		range = 64
+
+	[blocks.spring_launcher]
+		#fall distance needed to trigger the automatic spring launch
+		#Range: 0 ~ 512
+		fall_height_required = 5
+		#spring launcher launch speed
+		#Range: 0.0 ~ 16.0
+		velocity = 1.5
+
+	[blocks.bellows]
+		#velocity increase uses this equation: 
+		#vel = base_vel*((range-entity_distance)/range) with base_vel = base_velocity_scaling/period 
+		#note that the block will push further the faster it's pulsing
+		#Range: 0.0 ~ 64.0
+		base_velocity_scaling = 5.0
+		#bellows pushes air following this equation: 
+		#air=(sin(2PI*ticks/period)<0), with period = base_period-(redstone_power-1)*power_scaling 
+		#represents base period at 1 power
+		#Range: 1 ~ 512
+		base_period = 78
+		#note that it will still only keep alive the two fire blocks closer to it
+		#Range: 0 ~ 16
+		range = 5
+		#entities with velocity greated than this won't be pushed
+		#Range: 0.0 ~ 16.0
+		power_scaling = 2.0
+		#sets velocity changed flag when pushing entities +
+		#causes pushing animation to be smooth client side but also restricts player movement when being pushed
+		velocity_changed_flag = true
+
+	[blocks.notice_board]
+		#allow notice boards to accept and display any item, not just maps and books
+		allow_any_item = false
+
+	[blocks.jar]
+		#catchable mobs 
+		#BE VERY CAREFUL WITH THESE: SOME MOBS MIGHT NOT WORK OF EVEN CRASH THE GAME.
+		#That's due to a vanilla bug. Check in a new world if the mobs you added here work before adding to a modpack
+		mobs = ["minecraft:slime", "minecraft:bee", "minecraft:magma_cube", "iceandfire:pixie"]
+		#tinted jar catchable mobs
+		tinted_jar_mobs = ["minecraft:endermite", "minecraft:slime", "minecraft:bee", "minecraft:magma_cube", "minecraft:vex", "iceandfire:pixie"]
+		#allow right click to instantly eat or drink food or potions inside a jar.
+		#Disable if you think this ability is op. Cookies are excluded
+		drink_from_jar = true
+		#jar liquid capacity: leave at 12 for pixel accuracy
+		#Range: 0 ~ 1024
+		capacity = 12
+
+#Configure spawning conditions
+[spawns]
+
+	[spawns.firefly]
+		#Minimum group size
+		#Range: 0 ~ 64
+		min = 5
+		#Spawnable biomes
+		biomes = ["minecraft:swamp", "minecraft:swamp_hills", "minecraft:plains", "minecraft:sunflower_plains", "minecraft:dark_forest", "minecraft:dark_forest_hills"]
+		#Maximum group size
+		#Range: 0 ~ 64
+		max = 9
+		#Whitelisted mods. All biomes from said mods will be able to spawn fireflies. Use the one above for more control
+		mod_whitelist = []
+		#Spawn weight 
+		#Set to 0 to disable spawning entirely
+		#Range: 0 ~ 100
+		weight = 3
+
+#entities parameters
+[entities]
+
+	[entities.firefly]
+		#firefly animation period
+		#note that actual period will be this + a random number between 0 and 10
+		#this needs to be here to allow correct despawning of the entity when it's not glowing
+		#check client configs come more animation settings
+		#Range: 1 ~ 200
+		period = 65
+		#firefly flying speed
+		#Range: 0.0 ~ 10.0
+		speed = 0.3
+
