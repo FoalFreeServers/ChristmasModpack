@@ -45,5 +45,4 @@
 	#Set to FALSE to prevent 'Thermal Series' Sulfur from generating.
 	Sulfur = true
 	#Set to FALSE to prevent 'Thermal Series' Copper from generating.
-	Copper = true
-
+	Copper = false

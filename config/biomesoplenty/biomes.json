@@ -1,52 +1,52 @@
 {
   "standard_weights": {
     "biomesoplenty:alps": {
-      "weight": 5
+      "weight": 6
     },
     "biomesoplenty:bayou": {
-      "weight": 10
+      "weight": 9
     },
     "biomesoplenty:cherry_blossom_grove": {
-      "weight": 1
+      "weight": 3
     },
     "biomesoplenty:coniferous_forest": {
-      "weight": 10
+      "weight": 9
     },
     "biomesoplenty:crystalline_chasm": {
       "weight": 5
     },
     "biomesoplenty:dead_forest": {
-      "weight": 1
-    },
-    "biomesoplenty:dryland": {
       "weight": 3
     },
+    "biomesoplenty:dryland": {
+      "weight": 4
+    },
     "biomesoplenty:fungal_jungle": {
-      "weight": 1
+      "weight": 3
     },
     "biomesoplenty:grove": {
       "weight": 10
     },
     "biomesoplenty:highland": {
-      "weight": 5
+      "weight": 4
     },
     "biomesoplenty:jade_cliffs": {
-      "weight": 1
-    },
-    "biomesoplenty:lavender_field": {
       "weight": 3
     },
+    "biomesoplenty:lavender_field": {
+      "weight": 4
+    },
     "biomesoplenty:lush_desert": {
-      "weight": 1
+      "weight": 2
     },
     "biomesoplenty:meadow": {
       "weight": 7
     },
     "biomesoplenty:mystic_grove": {
-      "weight": 1
+      "weight": 3
     },
     "biomesoplenty:ominous_woods": {
-      "weight": 1
+      "weight": 5
     },
     "biomesoplenty:prairie": {
       "weight": 7
@@ -67,7 +67,7 @@
       "weight": 7
     },
     "biomesoplenty:silkglade": {
-      "weight": 1
+      "weight": 2
     },
     "biomesoplenty:snowy_coniferous_forest": {
       "weight": 5
@@ -79,19 +79,19 @@
       "weight": 10
     },
     "biomesoplenty:visceral_heap": {
-      "weight": 7
+      "weight": 10
     },
     "biomesoplenty:wasteland": {
-      "weight": 1
+      "weight": 3
     },
     "biomesoplenty:wetland": {
       "weight": 10
     },
     "biomesoplenty:withered_abyss": {
-      "weight": 3
+      "weight": 4
     },
     "biomesoplenty:wooded_wasteland": {
-      "weight": 1
+      "weight": 3
     }
   },
   "technical_biome_toggles": {
@@ -286,13 +286,13 @@
       "weight": 10
     },
     "minecraft:birch_forest": {
-      "weight": 5
+      "weight": 8
     },
     "minecraft:crimson_forest": {
       "weight": 10
     },
     "minecraft:dark_forest": {
-      "weight": 7
+      "weight": 10
     },
     "minecraft:desert": {
       "weight": 15
@@ -304,7 +304,7 @@
       "weight": 3
     },
     "minecraft:giant_tree_taiga": {
-      "weight": 5
+      "weight": 7
     },
     "minecraft:jungle": {
       "weight": 10
@@ -325,7 +325,7 @@
       "weight": 10
     },
     "minecraft:snowy_taiga": {
-      "weight": 7
+      "weight": 8
     },
     "minecraft:snowy_tundra": {
       "weight": 10
@@ -334,7 +334,7 @@
       "weight": 10
     },
     "minecraft:swamp": {
-      "weight": 7
+      "weight": 8
     },
     "minecraft:taiga": {
       "weight": 10
@@ -343,7 +343,7 @@
       "weight": 10
     },
     "minecraft:wooded_badlands_plateau": {
-      "weight": 3
+      "weight": 5
     }
   }
 }

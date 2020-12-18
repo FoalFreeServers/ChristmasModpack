@@ -55,7 +55,7 @@
 		#Range: 1 ~ 256
 		maxHeight = 60
 		#Determines if copper ore should be added to world generation.
-		shouldGenerate = true
+		shouldGenerate = false
 		#Maximum number of blocks in a vein of copper.
 		#Range: 1 ~ 512
 		maxVeinSize = 8
@@ -82,7 +82,7 @@
 	[world_generation.fluorite]
 		#Chance that fluorite generates in a chunk.
 		#Range: 1 ~ 128
-		perChunk = 6
+		perChunk = 3
 		#Top offset for calculating height that veins of fluorite can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
 		topOffset = 0
 		#Bottom offset for calculating height that veins of fluorite can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
@@ -131,4 +131,3 @@
 		#Maximum number of blocks in a vein of lead.
 		#Range: 1 ~ 512
 		maxVeinSize = 8
-

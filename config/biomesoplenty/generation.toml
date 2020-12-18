@@ -3,7 +3,7 @@
 [overworld]
 	#Type of rainfall zones to use during biome placement.
 	#Allowed Values: SMALL_ZONES, MEDIUM_ZONES, LARGE_ZONES, RANDOM
-	rainfall_variation_scheme = "MEDIUM_ZONES"
+	rainfall_variation_scheme = "RANDOM"
 	#Enhance vanilla biomes by adding additional decoration.
 	enhance_vanilla_biomes = true
 	#The size of generated biomes.
@@ -11,10 +11,9 @@
 	biome_size = "MEDIUM"
 	#Type of temperature zones to use during biome placement.
 	#Allowed Values: LATITUDE, SMALL_ZONES, MEDIUM_ZONES, LARGE_ZONES, RANDOM
-	temperature_variation_scheme = "MEDIUM_ZONES"
+	temperature_variation_scheme = "RANDOM"
 	#Enable nether generation from Biomes O' Plenty.
 	use_bop_nether = true
 	#The size of generated rivers.
 	#Allowed Values: TINY, SMALL, MEDIUM, LARGE, HUGE
-	river_size = "MEDIUM"
-
+	river_size = "LARGE"
