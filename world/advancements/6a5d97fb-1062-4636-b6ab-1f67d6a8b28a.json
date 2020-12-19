@@ -1955,6 +1955,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/melting_fuel/melting/fuel/lava": {
+    "criteria": {
+      "has_item": "2020-12-19 15:19:17 -0500"
+    },
+    "done": true
+  },
   "botania:recipes/botania/metamorphic_fungal_bricks_stairs": {
     "criteria": {
       "has_the_recipe": "2020-12-18 20:20:21 -0500"
@@ -2864,6 +2870,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/sheetmetal_colored_blue_to_slab": {
     "criteria": {
       "has_the_recipe": "2020-12-18 20:20:26 -0500"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/casting/casting/filling/bucket": {
+    "criteria": {
+      "has_item": "2020-12-19 15:18:58 -0500"
     },
     "done": true
   },
@@ -8413,6 +8425,12 @@
     },
     "done": true
   },
+  "trashcans:recipes/search/liquid_trash_can": {
+    "criteria": {
+      "bucket": "2020-12-19 15:18:58 -0500"
+    },
+    "done": true
+  },
   "embellishcraft:recipes/embellishcraft_group/white_concrete_paving_wall": {
     "criteria": {
       "has_the_recipe": "2020-12-18 20:20:24 -0500"
@@ -9514,6 +9532,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/metal_barrel": {
     "criteria": {
       "has_the_recipe": "2020-12-18 20:20:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2020-12-19 15:19:17 -0500"
     },
     "done": true
   },
@@ -16033,6 +16057,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/casting/casting/iron_block": {
+    "criteria": {
+      "has_item": "2020-12-19 15:03:31 -0500"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/stairs_alu_scaffolding_grate_top": {
     "criteria": {
       "has_the_recipe": "2020-12-18 20:20:23 -0500"
@@ -18583,6 +18613,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/casting/casting/lavawood": {
+    "criteria": {
+      "has_item": "2020-12-19 15:19:17 -0500"
+    },
+    "done": true
+  },
   "embellishcraft:recipes/embellishcraft_group/gray_corrugated_metal_plate_wall": {
     "criteria": {
       "has_the_recipe": "2020-12-18 20:20:35 -0500"
@@ -19822,6 +19858,12 @@
   "embellishcraft:recipes/embellishcraft_group/orange_table_lamp": {
     "criteria": {
       "has_the_recipe": "2020-12-18 20:20:25 -0500"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/melting/melting/gold_from_block": {
+    "criteria": {
+      "hasItem": "2020-12-19 15:19:31 -0500"
     },
     "done": true
   },
@@ -22543,6 +22585,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/casting/casting/gold_block": {
+    "criteria": {
+      "has_item": "2020-12-19 15:19:31 -0500"
+    },
+    "done": true
+  },
   "bloodmagic:recipes/misc/smelting/ingot_netherite_scrap": {
     "criteria": {
       "has_the_recipe": "2020-12-18 20:20:32 -0500"
@@ -23397,6 +23445,7 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "seasonal_pumpkin_patch": "2020-12-19 15:17:30 -0500",
       "redwood_forest_edge": "2020-12-18 21:36:05 -0500",
       "redwood_forest": "2020-12-18 20:20:38 -0500",
       "seasonal_forest": "2020-12-18 22:14:23 -0500"
@@ -28158,6 +28207,12 @@
   "botania:recipes/botania/chiseled_elf_quartz": {
     "criteria": {
       "has_the_recipe": "2020-12-18 20:20:31 -0500"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/melting/melting/iron_from_block": {
+    "criteria": {
+      "hasItem": "2020-12-19 15:03:31 -0500"
     },
     "done": true
   },

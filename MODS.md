@@ -80,6 +80,7 @@ An Access Transformer simply changes this access modifier to allow it to be more
 | Mekanism Generators | Mekanism Generators is an official addon to Mekanism that adds various generators and ways to produce energy. Without this module you will need some other mod to be able to produce energy for your Mekanism machines. | ✔️ | ✔️ | ✔️ |
 | Mekanism Tools | Mekanism Tools is an official addon to Mekanism that adds Tools and Armor for various Mekanism materials, and some vanilla ones. | ✔️ | ✔️ | ❌ |
 | More Red | More redstone items | ❌ | ✔️ | ❌ |
+| Morppheus| Adds sleep voting. | ✔️ | ✔️ | ✔️ |
 | Moving Elevators | Moving Elevators allows you to build real moving elevators! These elevator will move you as well as other entities on the platform to multiple floors at the press of a button! The platform can have different sizes and can move at different speeds! You can even disguise the Elevator Controller and Display as other blocks! | ✔️ | ✔️ | ✔️ |
 | Nature's Aura | Nature's Aura is a mod about collecting, using and replenishing the Aura naturally present in the world to create useful devices and unique mechanics. | ✔️ | ✔️ | ✔️ |
 | ObserverLib | ObserverLib is a library mod, usable to reliably observe block changes in a potentially large area with very little performance implications. | ✔️ | ❌ | ❌ |
