@@ -17,3 +17,4 @@
 	#The size of generated rivers.
 	#Allowed Values: TINY, SMALL, MEDIUM, LARGE, HUGE
 	river_size = "LARGE"
+

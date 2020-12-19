@@ -515,3 +515,4 @@
 		#The mb of fluid the Chemical Thrower will consume per tick of usage
 		#Range: > 1
 		consumption = 10
+

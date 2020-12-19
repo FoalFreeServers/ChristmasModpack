@@ -22,3 +22,4 @@
 	bitumenBiomeBlacklist = ["minecraft:nether_wastes", "minecraft:soul_sand_valley", "minecraft:basalt_deltas", "minecraft:crimson_forest", "minecraft:warped_forest", "minecraft:the_end", "minecraft:end_barrens", "minecraft:end_midlands", "minecraft:end_highlands", "minecraft:small_end_islands", "minecraft:the_void"]
 	#Set to true to switch bitumen ore blacklist to whitelist mode [true / false, default: false]
 	bitumenWhitelist = false
+

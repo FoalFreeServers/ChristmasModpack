@@ -2,7 +2,9 @@
 /libraries/
 /mods/
 forge-1.16.4-35.1.13.jar
+forge-1.16.4-35.1.18.jar
 minecraft_server.1.16.4.jar
+ChristmasModpack.7z
 
 # Uncessary logs
 /crash-reports/
@@ -14,6 +16,7 @@ minecraft_server.1.16.4.jar
 /world/astralsorcery/
 /world/data/
 /world/datapacks/
+/world/deaths/
 /world/DIM1/data/
 /world/DIM1/poi/
 /world/DIM1/region/
