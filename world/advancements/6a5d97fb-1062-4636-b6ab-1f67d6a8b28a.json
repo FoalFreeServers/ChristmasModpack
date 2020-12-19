@@ -3035,6 +3035,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/casting/casting/gold_ingot": {
+    "criteria": {
+      "has_item": "2020-12-19 15:45:33 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/embellishcraft_group/terracotta_large_bricks_stairs_from_terracotta_large_bricks_stonecutting": {
     "criteria": {
       "has_the_recipe": "2020-12-18 20:20:32 -0500"
@@ -21706,6 +21712,12 @@
   "embellishcraft:recipes/embellishcraft_group/andesite_bricks": {
     "criteria": {
       "has_the_recipe": "2020-12-18 20:20:28 -0500"
+    },
+    "done": true
+  },
+  "trashcans:recipes/search/item_trash_can": {
+    "criteria": {
+      "chest": "2020-12-19 15:42:08 -0500"
     },
     "done": true
   },

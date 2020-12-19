@@ -33762,6 +33762,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:deep_frozen_ocean": "2020-12-19 09:46:15 -0500",
+      "minecraft:snowy_beach": "2020-12-19 15:41:49 -0500",
       "minecraft:warm_ocean": "2020-12-19 09:45:45 -0500",
       "minecraft:beach": "2020-12-19 09:44:44 -0500",
       "minecraft:river": "2020-12-18 21:47:42 -0500"
