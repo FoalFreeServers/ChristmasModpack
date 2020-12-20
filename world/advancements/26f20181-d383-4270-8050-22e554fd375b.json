@@ -659,6 +659,12 @@
     },
     "done": true
   },
+  "botania:challenge/root": {
+    "criteria": {
+      "flower": "2020-12-19 21:21:40 -0500"
+    },
+    "done": true
+  },
   "embellishcraft:recipes/embellishcraft_group/brown_corrugated_metal_plate_stairs": {
     "criteria": {
       "has_the_recipe": "2020-12-18 21:31:22 -0500"
@@ -5173,6 +5179,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2020-12-19 22:51:09 -0500",
       "minecraft:skeleton": "2020-12-19 07:15:41 -0500",
       "minecraft:spider": "2020-12-18 22:51:04 -0500",
       "minecraft:witch": "2020-12-19 14:41:12 -0500",
@@ -19473,6 +19480,12 @@
     },
     "done": true
   },
+  "botania:main/root": {
+    "criteria": {
+      "flower": "2020-12-19 21:21:40 -0500"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/storage_aluminum_to_slab": {
     "criteria": {
       "has_the_recipe": "2020-12-18 21:31:33 -0500"
@@ -19710,6 +19723,12 @@
   "botania:recipes/botania/lens_flare": {
     "criteria": {
       "has_the_recipe": "2020-12-18 21:31:21 -0500"
+    },
+    "done": true
+  },
+  "naturesaura:positive_imbalance": {
+    "criteria": {
+      "triggered_in_code": "2020-12-19 16:16:30 -0500"
     },
     "done": true
   },
@@ -21651,6 +21670,12 @@
     },
     "done": true
   },
+  "trashcans:recipes/search/item_trash_can": {
+    "criteria": {
+      "chest": "2020-12-19 19:40:39 -0500"
+    },
+    "done": true
+  },
   "botania:recipes/botania/manasteel_leggings": {
     "criteria": {
       "has_the_recipe": "2020-12-18 21:31:31 -0500"
@@ -23387,7 +23412,11 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
-      "redwood_forest": "2020-12-18 21:31:35 -0500"
+      "highland": "2020-12-19 16:10:46 -0500",
+      "redwood_forest": "2020-12-18 21:31:35 -0500",
+      "highland_moor": "2020-12-19 16:13:30 -0500",
+      "seasonal_forest": "2020-12-19 19:32:38 -0500",
+      "highland_crag": "2020-12-19 16:11:45 -0500"
     },
     "done": false
   },
@@ -25158,6 +25187,12 @@
   "biomesoplenty:recipes/redstone/magic_button": {
     "criteria": {
       "has_the_recipe": "2020-12-18 21:31:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2020-12-19 19:36:44 -0500"
     },
     "done": true
   },
@@ -33761,11 +33796,16 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:mountains": "2020-12-19 16:14:00 -0500",
+      "minecraft:desert": "2020-12-19 19:30:41 -0500",
+      "minecraft:frozen_river": "2020-12-19 16:59:47 -0500",
       "minecraft:deep_frozen_ocean": "2020-12-19 09:46:15 -0500",
       "minecraft:snowy_beach": "2020-12-19 15:41:49 -0500",
       "minecraft:warm_ocean": "2020-12-19 09:45:45 -0500",
+      "minecraft:badlands": "2020-12-19 19:30:44 -0500",
       "minecraft:beach": "2020-12-19 09:44:44 -0500",
-      "minecraft:river": "2020-12-18 21:47:42 -0500"
+      "minecraft:river": "2020-12-18 21:47:42 -0500",
+      "minecraft:wooded_mountains": "2020-12-19 16:16:37 -0500"
     },
     "done": false
   },
@@ -35491,6 +35531,12 @@
   "apotheosis:spawner/root": {
     "criteria": {
       "game_start": "2020-12-18 21:31:35 -0500"
+    },
+    "done": true
+  },
+  "botania:main/flower_pickup": {
+    "criteria": {
+      "flower": "2020-12-19 21:21:40 -0500"
     },
     "done": true
   },
