@@ -14,6 +14,7 @@ ChristmasModpack.7z
 
 
 # Region data
+/world/advancements/
 /world/astralsorcery/
 /world/data/
 /world/datapacks/
@@ -29,6 +30,7 @@ ChristmasModpack.7z
 /world/playerdata
 /world/poi/
 /world/region/
+/world/stats/
 /world/icon.png
 /world/level.dat
 /world/level.dat_old
