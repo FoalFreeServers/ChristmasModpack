@@ -7,6 +7,9 @@ forge-1.16.4-35.1.18-installer.jar
 minecraft_server.1.16.4.jar
 ChristmasModpack.7z
 
+# Backups
+/backups/
+
 # Uncessary logs
 /crash-reports/
 /logs/
