@@ -12,7 +12,7 @@
 	#Range: 1 ~ 255
 	GroundLevel = 60
 	#Enable alerts
-	AlertEnabled = false
+	AlertEnabled = true
 	#Include miners in player calculations
 	IncludeMiners = true
 	#Percentage of players required to trigger a successful sleep.
