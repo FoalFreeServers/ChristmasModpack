@@ -68,8 +68,8 @@ An Access Transformer simply changes this access modifier to allow it to be more
 | Industrial Foregoing | Adds a bunch of miscellaneous machines | ✔️ | ✔️ | ✔️ |
 | Iron Chests | Iron Chests mod has chests for the various metals in vanilla minecraft with varying sizes! | ✔️ | ✔️ | ❌ |
 | Just Enough Items (JEI) | JEI is an item and recipe viewing mod for Minecraft, built from the ground up for stability and performance. | ✔️ | ✔️ | ❌ |
+| Just Enough Calculation (JER) | It is a simple calculator to help you calculate how many of resources you need to gather for certain items. You can manage tons of crafting procedures with the help of it. Actually it is designed for some mega packs to help you manage the crafting things manually without drove mad by the crazy steps. You must have JEI installed for it to work. | ✔️ | ✔️ | ✔️ | 
 | Just Enough Resources (JER) | Displays how to get certain resources via the world. | ✔️ | ✔️ | ❌ |
-| Magic Feather | Magic Feather is my take on a more balanced Angel Ring from Extra Utilities. It adds a feather that grants the player creative flight while within the range of an active vanilla Beacon. This allows the player to enjoy the benefits of creative flight while building, without making exploration trivial. | ✔️ | ✔️ | ✔️ |
 | Mantle |  This contains shared code for Forge mods and is used by the Slime Knights. Descriptive book code and common inventories are found here. | ✔️ | ✔️ | ❌ |
 | Mapper Base |  Mapper Base is a library mod that provides basic elements and functionalities to my other mods. | ✔️ | ✔️ | ✔️ |
 | Macaw's Bridges | This simple mod adds small variations of bridges. For now this version has got 24 different types of bridges. Guardrails are now working too! | ✔️ | ✔️ | ✔️ |
@@ -82,6 +82,7 @@ An Access Transformer simply changes this access modifier to allow it to be more
 | Mekanism Tools | Mekanism Tools is an official addon to Mekanism that adds Tools and Armor for various Mekanism materials, and some vanilla ones. | ✔️ | ✔️ | ❌ |
 | More Red | More redstone items | ❌ | ✔️ | ❌ |
 | Morpheus| Adds sleep voting. | ✔️ | ✔️ | ✔️ |
+| MouseTweaks | Mouse Tweaks replaces the standard RMB dragging mechanic, adds two new LMB dragging mechanics and an ability to quickly move items with the scroll wheel. | ✔️ | ✔️ | ✔️ |
 | Moving Elevators | Moving Elevators allows you to build real moving elevators! These elevator will move you as well as other entities on the platform to multiple floors at the press of a button! The platform can have different sizes and can move at different speeds! You can even disguise the Elevator Controller and Display as other blocks! | ✔️ | ✔️ | ✔️ |
 | Nature's Aura | Nature's Aura is a mod about collecting, using and replenishing the Aura naturally present in the world to create useful devices and unique mechanics. | ✔️ | ✔️ | ✔️ |
 | ObserverLib | ObserverLib is a library mod, usable to reliably observe block changes in a potentially large area with very little performance implications. | ✔️ | ❌ | ❌ |
