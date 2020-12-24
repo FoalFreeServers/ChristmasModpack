@@ -13,3 +13,4 @@
 	#biomeSize * radiusModifier = maxSearchRadius. Raising this value will increase search accuracy but will potentially make the process more resource .
 	#Range: 0 ~ 1000000
 	radiusModifier = 25000
+

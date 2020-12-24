@@ -1,6 +1,6 @@
 
 ["Global Options"]
-	#If TRUE, most Thermal Blocks will retain Inventory Contents when dropped. This setting does not control ALL blocks.
+	#If TRUE, Thermal Blocks will retain Inventory Contents when dropped.
 	"Blocks Retain Inventory" = false
 	#If TRUE, Thermal Blocks will retain Redstone Control configuration when dropped.
 	"Blocks Retain Redstone Control" = false
@@ -8,11 +8,11 @@
 	"Blocks Retain Side Configuration" = false
 	#If TRUE, Thermal Blocks will retain Transfer Control configuration when dropped.
 	"Blocks Retain Transfer Control" = false
-	#If TRUE, most Thermal Blocks will retain Tank Contents when dropped. This setting does not control ALL blocks.
+	#If TRUE, Thermal Blocks will retain Tank Contents when dropped.
 	"Blocks Retain Tank Contents" = false
 	#If TRUE, Thermal Blocks will retain Augments when dropped.
 	"Blocks Retain Augments" = false
-	#If TRUE, most Thermal Blocks will retain Energy when dropped. This setting does not control ALL blocks.
+	#If TRUE, Thermal Blocks will retain Energy when dropped.
 	"Blocks Retain Energy" = false
 
 [Features]
@@ -30,8 +30,6 @@
 ["World Generation"]
 	#Set to FALSE to prevent 'Thermal Series' Silver from generating.
 	Silver = true
-	#Set to FALSE to prevent 'Thermal Series' Oil Sands from generating.
-	Oil = true
 	#Set to FALSE to prevent 'Thermal Series' Cinnabar from generating.
 	Cinnabar = true
 	#Set to FALSE to prevent 'Thermal Series' Tin from generating.
