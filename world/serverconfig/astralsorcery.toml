@@ -564,9 +564,9 @@
 			#Set the amount of health recovered by health cycle.
 			#Range: 0.0 ~ 100.0
 			healthPerCycle = 0.5
-			#Set the amount alignment charge consumed per block placed
-			#Range: 0 ~ 1000
-			chargeCostPerBlock = 2
+			#Set the amount alignment charge consumed per tick when walking/standing in the air
+			#Range: 0.0 ~ 100.0
+			chargeCostPerTravelTick = 2.5
 			#Set this to false to disable this mantle effect
 			enabled = true
 			#Set the amount of food recovered by food cycle.
