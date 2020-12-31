@@ -17,5 +17,5 @@
 	IncludeMiners = true
 	#Percentage of players required to trigger a successful sleep.
 	#Range: 0 ~ 100
-	SleeperPerc = 50
+	SleeperPerc = 40
 
