@@ -36,3 +36,8 @@
 /world/level.dat
 /world/level.dat_old
 /world/session.lock
+
+
+# Dynmap Files
+/dynmap/texturepacks/lemons-tolerance-1-16/
+/dynmap/web/tiles/

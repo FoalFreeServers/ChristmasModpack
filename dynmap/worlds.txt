@@ -1,0 +1,66 @@
+worlds:
+-   name: world
+    title: Overworld
+    enabled: true
+    extrazoomout: 2
+    maps:
+    -   class: org.dynmap.hdmap.HDMap
+        name: surface
+        title: Surface
+        prefix: surface
+        perspective: iso_SE_30_hires
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+    -   class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: Flat
+        prefix: flat
+        perspective: iso_S_90_hires
+        shader: stdtexture
+        lighting: default
+        mapzoomin: 1
+-   name: DIM-1
+    title: The Nether
+    enabled: true
+    extrazoomout: 2
+    maps:
+    -   class: org.dynmap.hdmap.HDMap
+        name: nether
+        title: Nether
+        prefix: nether
+        perspective: iso_SE_30_hires
+        shader: defaultscheme
+        lighting: shadows
+        mapzoomin: 1
+        background: "#300806"
+    -   class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: Flat
+        prefix: flat
+        perspective: iso_S_90_hires
+        shader: defaultscheme
+        lighting: default
+        mapzoomin: 1
+        background: "#300806"
+-   name: DIM1
+    title: The End
+    enabled: true
+    extrazoomout: 2
+    maps:
+    -   class: org.dynmap.hdmap.HDMap
+        name: surface
+        title: Surface
+        prefix: surface
+        perspective: iso_SE_30_hires
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+    -   class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: Flat
+        prefix: flat
+        perspective: iso_S_90_hires
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
