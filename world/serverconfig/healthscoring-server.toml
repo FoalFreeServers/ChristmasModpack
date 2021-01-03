@@ -1,0 +1,9 @@
+
+["Scoreboard Properties"]
+	# Default label for a created objective
+	initialLabel = "HP"
+	# Enable creating a health objective and setting the tab display on world creation
+	initializeScoreboard = true
+	# Check for an active health-based objective on every startup
+	checkAgain = false
+

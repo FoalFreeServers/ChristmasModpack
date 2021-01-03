@@ -1,0 +1,9 @@
+
+["Display Properties"]
+	# Enable rendering health effects (poison, wither, hardcore) when provided by server
+	enableEffects = true
+	# Enable extra absorption rendering when provided by server
+	enableAbsorption = true
+	# ID of mod to render hearts. Ignored if mod is not installed.
+	preferredRender = ""
+
