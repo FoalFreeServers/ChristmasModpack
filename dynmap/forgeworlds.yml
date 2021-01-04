@@ -8,12 +8,6 @@ worlds:
     title: Overworld
     height: 256
 -   sealevel: 63
-    nether: false
-    name: DIM-1
-    the_end: true
-    title: The Nether
-    height: 256
--   sealevel: 63
     nether: true
     name: DIM1
     the_end: false
