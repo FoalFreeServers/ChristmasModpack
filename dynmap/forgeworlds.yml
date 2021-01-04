@@ -8,16 +8,16 @@ worlds:
     title: Overworld
     height: 256
 -   sealevel: 63
-    nether: true
-    name: DIM1
-    the_end: false
-    title: the_end
-    height: 256
--   sealevel: 63
     nether: false
     name: DIM-1
     the_end: true
-    title: the_nether
+    title: The Nether
+    height: 256
+-   sealevel: 63
+    nether: true
+    name: DIM1
+    the_end: false
+    title: The End
     height: 256
 useSaveFolderAsName: true
 maxWorldHeight: 256

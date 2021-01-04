@@ -31,7 +31,7 @@ worlds:
         prefix: nether
         perspective: iso_SE_30_hires
         shader: defaultscheme
-        lighting: shadows
+        lighting: nethershadows
         mapzoomin: 1
         background: "#300806"
     -   class: org.dynmap.hdmap.HDMap
@@ -40,7 +40,7 @@ worlds:
         prefix: flat
         perspective: iso_S_90_hires
         shader: defaultscheme
-        lighting: default
+        lighting: nethershadows
         mapzoomin: 1
         background: "#300806"
 -   name: DIM1
@@ -54,7 +54,7 @@ worlds:
         prefix: surface
         perspective: iso_SE_30_hires
         shader: stdtexture
-        lighting: shadows
+        lighting: brightnight
         mapzoomin: 1
     -   class: org.dynmap.hdmap.HDMap
         name: flat
@@ -62,5 +62,5 @@ worlds:
         prefix: flat
         perspective: iso_S_90_hires
         shader: stdtexture
-        lighting: shadows
+        lighting: brightnight
         mapzoomin: 1

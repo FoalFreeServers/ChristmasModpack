@@ -39,7 +39,5 @@
 
 
 # Dynmap Files
-/dynmap/world.pending
-/dynmap/DIM-1.pending
-/dynmap/DIM1.pending
+/dynmap/*.pending
 /dynmap/ids-by-ip.txt
