@@ -39,5 +39,7 @@
 
 
 # Dynmap Files
-/dynmap/texturepacks/lemons-tolerance-1-16/
-/dynmap/web/tiles/
+/dynmap/world.pending
+/dynmap/DIM-1.pending
+/dynmap/DIM1.pending
+/dynmap/ids-by-ip.txt
