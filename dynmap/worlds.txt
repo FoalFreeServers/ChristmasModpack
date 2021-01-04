@@ -22,27 +22,7 @@ worlds:
         mapzoomin: 1
 -   name: DIM-1
     title: The Nether
-    enabled: true
-    extrazoomout: 2
-    maps:
-    -   class: org.dynmap.hdmap.HDMap
-        name: nether
-        title: Nether
-        prefix: nether
-        perspective: iso_SE_30_hires
-        shader: defaultscheme
-        lighting: nethershadows
-        mapzoomin: 1
-        background: "#300806"
-    -   class: org.dynmap.hdmap.HDMap
-        name: flat
-        title: Flat
-        prefix: flat
-        perspective: iso_S_90_hires
-        shader: defaultscheme
-        lighting: nethershadows
-        mapzoomin: 1
-        background: "#300806"
+    enabled: false
 -   name: DIM1
     title: The End
     enabled: true
