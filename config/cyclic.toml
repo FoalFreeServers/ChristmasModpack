@@ -120,7 +120,7 @@
 			experience = 500
 
 	#####################################################################################
-	# Edit the permissions of all commands added by the mod.  false means anyone can use, true means only OP players can use
+	# Edit the permissions of all commands added by the mod.  false means anyone can use, true means only OP players can use  
 	#####################################################################################
 	[cyclic.command]
 		#True means only players with OP can use this /cyclic command
@@ -205,3 +205,4 @@
 			# Power gained burning one of this
 			#Range: 1 ~ 64000
 			peat_fuel = 256
+

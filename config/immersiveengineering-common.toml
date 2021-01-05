@@ -16,3 +16,4 @@ preferredOres = ["mekanism", "thermal", "thermal_expansion", "immersiveengineeri
 #Setting any of these to false disables the respective compat
 [compat]
 	computercraft = false
+

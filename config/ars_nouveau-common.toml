@@ -340,9 +340,9 @@
 
 #Starting Spells
 ["Starter Spells"]
-	projectile_starter = true
-	touch_starter = true
-	self_starter = true
-	break_starter = true
 	harm_starter = true
+	touch_starter = true
+	projectile_starter = true
+	break_starter = true
+	self_starter = true
 
