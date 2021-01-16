@@ -61,7 +61,7 @@
 	builderRFPerTick = 200000
 	#The RF per operation of the builder is multiplied with this factor when using the silk quarry shape card
 	#Range: 0.0 ~ 1000000.0
-	silkquarryShapeCardFactor = 3.0
+	silkquarryShapeCardFactor = 1.0
 	#If true the quarry will chunkload a chunk at a time. If false the quarry will stop if a chunk is not loaded
 	quarryChunkloads = true
 	#RF per entity move operation for the builder

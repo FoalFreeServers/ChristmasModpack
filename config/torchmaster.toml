@@ -5,6 +5,8 @@
 	#(Badly compressed packet error)
 	#Range: 0 ~ 32767
 	feralFlareLanternLightCountHardcap = 255
+	#Should pillager patrols be blocked?
+	blockPatrols = true
 	#Same as the mega torch block list override, just for the dread lamp
 	#Block squid: +minecraft:squid
 	#Allow pigs: -minecraft:pig
@@ -17,12 +19,16 @@
 	#Durability of the frozen pearl. Each removed light will remove one charge from the pearl. Set to 0 to disable durability
 	#Range: 0 ~ 32767
 	frozenPearlDurability = 1024
+	#Should phantoms be blocked?
+	blockPhantoms = true
 	#The radius in which the feral flare should try to place lights
 	#Range: 1 ~ 127
 	feralFlareRadius = 16
 	#The target minimum light level to place lights for
 	#Range: 0 ~ 15
 	feralFlareMinLightLevel = 10
+	#Should cats be blocked?
+	blockCats = true
 	#Configures the spawn check to be more aggressive, effectivly overriding the CheckSpawn results of other mods
 	aggressiveSpawnChecks = false
 	#Show additional information in the tooltip of certain items and blocks
