@@ -14,7 +14,7 @@
 	#Range: 0.0 ~ 1000000.0
 	fortunequarryShapeCardFactor = 2.0
 	#Use this block for the builder to replace with
-	quarryReplace = "minecraft:air"
+	quarryReplace = "minecraft:cobblestone"
 	#Base RF per block operation for the builder when used as a pump
 	#Range: > 0
 	builderRfPerLiquid = 600
