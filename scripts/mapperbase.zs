@@ -1,6 +1,7 @@
 // Remove a bunch of recipes provided by MapperBase. Why they have recipes in a library mod is beyond me. 
 
 <recipetype:blasting>.removeRecipe(<item:mapperbase:steel_ingot>);
+<recipetype:blasting>.removeRecipe(<item:mapperbase:steel_block>);
 craftingTable.removeRecipe(<item:mapperbase:steel_block>);
 craftingTable.removeRecipe(<item:mapperbase:steel_stairs>);
 craftingTable.removeRecipe(<item:mapperbase:steel_slab>);
