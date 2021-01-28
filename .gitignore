@@ -5,9 +5,6 @@
 /*.7z
 /*.zip
 
-# Backups
-/backups/
-
 # Uncessary logs
 /crash-reports/
 /logs/
@@ -28,14 +25,15 @@
 /world/DIM-1/region/
 /world/EnderStorage/
 /world/observerlib/
-/world/playerdata
+/world/playerdata/
+/world/pneumaticcraft/
 /world/poi/
 /world/region/
 /world/stats/
 /world/icon.png
-/world/level.dat
-/world/level.dat_old
+/world/level.*
 /world/session.lock
+/world/xaeromap.txt
 
 
 # Dynmap Files
