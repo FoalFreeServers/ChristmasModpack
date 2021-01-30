@@ -21,7 +21,7 @@
 	boilerWaterConductivity = 0.7
 	#Displayed temperature unit in Mekanism GUIs.
 	#Allowed Values: K, C, R, F, STP
-	temperatureUnit = "K"
+	temperatureUnit = "C"
 	#Allow right clicking on Cables/Pipes/Tubes with alloys to upgrade the tier.
 	transmitterAlloyUpgrade = true
 	#Log Mekanism packet names. Debug setting.
@@ -114,7 +114,7 @@
 		#Enable the security system for players to prevent others from accessing their machines. Does NOT affect Frequencies.
 		allowProtection = true
 		#Ops can bypass the block security restrictions if enabled.
-		opsBypassRestrictions = false
+		opsBypassRestrictions = true
 
 	#Laser Settings
 	[general.laser]
