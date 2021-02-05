@@ -16,7 +16,7 @@
 	#Amount of heat each Boiler heating element produces.
 	superheatingHeatTransfer = 1.6E7
 	#Amount of heat produced per fuel tick of a fuel's burn time in the Fuelwood Heater.
-	heatPerFuelTick = 400.0
+	heatPerFuelTick = 5000.0
 	#How much Boiler heat is immediately usable to convert water to steam.
 	boilerWaterConductivity = 0.7
 	#Displayed temperature unit in Mekanism GUIs.
@@ -47,7 +47,7 @@
 		ticksPerMine = 80
 		#Maximum radius in blocks that the Digital Miner can reach. (Increasing this may have negative effects on stability and/or performance. We strongly recommend you leave it at the default value).
 		#Range: > 1
-		maxRadius = 32
+		maxRadius = 128
 		#Energy multiplier for using silk touch mode with the Digital Miner.
 		silkMultiplier = 6
 
@@ -134,17 +134,17 @@
 		radioactiveWasteBarrelMaxGas = 64000
 		#The radius of chunks checked when running radiation calculations. The algorithm is efficient, but don't abuse it by making this crazy high.
 		#Range: 1 ~ 100
-		chunkCheckRadius = 5
+		chunkCheckRadius = 7
 		#Radiated objects and entities are multiplied by this constant roughly once per second to represent their dosage decay.
-		targetDecayRate = 0.9995
+		targetDecayRate = 0.999
 		#Number of ticks required for radioactive gas stored in a Radioactive Waste Barrel to decay radioactiveWasteBarrelDecayAmount mB.
 		#Range: > 1
-		radioactiveWasteBarrelProcessTicks = 1200
+		radioactiveWasteBarrelProcessTicks = 600
 		#Number of mB of gas that decay every radioactiveWasteBarrelProcessTicks ticks when stored in a Radioactive Waste Barrel. Set to zero to disable decay all together. (Gases in the mekanism:waste_barrel_decay_blacklist tag will not decay).
 		#Range: 0 ~ 9223372036854775807
 		radioactiveWasteBarrelDecayAmount = 1
 		#Radiation sources are multiplied by this constant roughly once per second to represent their emission decay. At the default rate, it takes roughly 10 days to remove a 1,000 Sv/h (crazy high) source.
-		sourceDecayRate = 0.9995
+		sourceDecayRate = 0.999
 		#Defines the minimum severity radiation dosage severity (scale of 0 to 1) for which negative effects can take place. Set to 1 to disable negative effects completely.
 		#Range: 0.0 ~ 1.0
 		negativeEffectsMinSeverity = 0.1
