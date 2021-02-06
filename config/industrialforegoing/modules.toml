@@ -8,6 +8,9 @@
 		[modules.agriculture.animal_rancher]
 			enabled = true
 
+		[modules.agriculture.hydroponic_bed]
+			enabled = true
+
 		[modules.agriculture.crop_farming]
 			enabled = true
 

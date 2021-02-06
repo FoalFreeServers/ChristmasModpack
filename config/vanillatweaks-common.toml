@@ -28,6 +28,8 @@
 		#Percentage chance to plant
 		#Range: 0 ~ 100
 		chanceToPlant = 100
+		#Don't want that that pesky lava pockets in nether to kill you?
+		disableLavaPocketGen = false
 		#Is realistic predator/prey relationships activated?
 		realisticRelationship = true
 
@@ -37,6 +39,10 @@
 		string = true
 		#Cobblestone used in stone tools doesn't make sense?
 		betterStoneTools = true
+		#Want an easier way to craft repeater?
+		betterRepeater = false
+		#Wanna easier recipe for trapped chest?
+		betterTrappedChestRecipe = false
 		#Tired of not having a nametag?
 		nametag = true
 		#Wanna craft multiple chests at one go?
@@ -46,6 +52,8 @@
 
 	#Tweaks
 	[VanillaTweaks.tweaks]
+		#Want to see the no of bees or the honey level of an beehive?
+		enableBeehiveTooltips = true
 		#Want a way to clear text in signs?
 		enableSignEditing = true
 		#Want to shear nametag of named entities?
@@ -86,8 +94,14 @@
 	[VanillaTweaks.content]
 		#Want a food which can be obtained with eggs and heals 2.5 hunger?
 		enableFriedEgg = true
+		#Explosion power for dynamite. TNT has 4, Ender Crystal has 6
+		#Range: 0 ~ 10
+		dynamiteExplosionPower = 3
 		#Want to showcase your treasure but item frame doesn't satisfy you?
 		enablePedestal = true
+		#Cooldown for the dynamite in ticks
+		#Range: > 0
+		dynamiteCooldown = 20
 		#Want block forms of flint, charcoal and sugar?
 		enableStorageBlocks = true
 		#Do you want a portable crafting table?
