@@ -1,21 +1,9 @@
 // Remove a bunch of recipes provided by MapperBase. Why they have recipes in a library mod is beyond me. 
 
+<recipetype:blasting>.removeRecipe(<item:mapperbase:steel_nugget>);
 <recipetype:blasting>.removeRecipe(<item:mapperbase:steel_ingot>);
 <recipetype:blasting>.removeRecipe(<item:mapperbase:steel_block>);
-craftingTable.removeRecipe(<item:mapperbase:steel_block>);
-craftingTable.removeRecipe(<item:mapperbase:steel_stairs>);
-craftingTable.removeRecipe(<item:mapperbase:steel_slab>);
-craftingTable.removeRecipe(<item:mapperbase:steel_wall>);
-craftingTable.removeRecipe(<item:mapperbase:steel_pressure_plate>);
-craftingTable.removeRecipe(<item:mapperbase:steel_fence>);
-craftingTable.removeRecipe(<item:mapperbase:steel_fence_gate>);
-craftingTable.removeRecipe(<item:mapperbase:concrete>);
-craftingTable.removeRecipe(<item:mapperbase:concrete_stairs>);
-craftingTable.removeRecipe(<item:mapperbase:concrete_slab>);
-craftingTable.removeRecipe(<item:mapperbase:concrete_wall>);
-craftingTable.removeRecipe(<item:mapperbase:concrete_pressure_plate>);
-craftingTable.removeRecipe(<item:mapperbase:concrete_fence>);
-craftingTable.removeRecipe(<item:mapperbase:concrete_fence_gate>);
+<recipetype:blasting>.removeRecipe(<item:mapperbase:steel_plate>);
 craftingTable.removeRecipe(<item:mapperbase:steel_nugget>);
 craftingTable.removeRecipe(<item:mapperbase:steel_ingot>);
 craftingTable.removeRecipe(<item:mapperbase:steel_plate>);
