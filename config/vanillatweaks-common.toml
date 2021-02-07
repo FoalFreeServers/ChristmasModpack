@@ -29,7 +29,7 @@
 		#Range: 0 ~ 100
 		chanceToPlant = 100
 		#Don't want that that pesky lava pockets in nether to kill you?
-		disableLavaPocketGen = false
+		disableLavaPocketGen = true
 		#Is realistic predator/prey relationships activated?
 		realisticRelationship = true
 
@@ -40,9 +40,9 @@
 		#Cobblestone used in stone tools doesn't make sense?
 		betterStoneTools = true
 		#Want an easier way to craft repeater?
-		betterRepeater = false
+		betterRepeater = true
 		#Wanna easier recipe for trapped chest?
-		betterTrappedChestRecipe = false
+		betterTrappedChestRecipe = true
 		#Tired of not having a nametag?
 		nametag = true
 		#Wanna craft multiple chests at one go?
