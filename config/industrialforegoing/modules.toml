@@ -8,6 +8,9 @@
 		[modules.agriculture.animal_rancher]
 			enabled = true
 
+		[modules.agriculture.hydroponic_bed]
+			enabled = true
+
 		[modules.agriculture.crop_farming]
 			enabled = true
 
@@ -120,7 +123,40 @@
 		[modules.transport.conveyor]
 			enabled = true
 
+		[modules.transport.advanced_black_hole_unit]
+			enabled = true
+
+		[modules.transport.supreme_black_hole_unit]
+			enabled = true
+
+		[modules.transport.common_black_hole_tank]
+			enabled = true
+
+		[modules.transport.black_hole_controller]
+			enabled = true
+
+		[modules.transport.advanced_black_hole_tank]
+			enabled = true
+
 		[modules.transport.conveyor_upgrades]
+			enabled = true
+
+		[modules.transport.simple_black_hole_tank]
+			enabled = true
+
+		[modules.transport.pity_black_hole_unit]
+			enabled = true
+
+		[modules.transport.common_black_hole_unit]
+			enabled = true
+
+		[modules.transport.pity_black_hole_tank]
+			enabled = true
+
+		[modules.transport.simple_black_hole_unit]
+			enabled = true
+
+		[modules.transport.supreme_black_hole_tank]
 			enabled = true
 
 	#A collection of Industrial Foregoing tools
@@ -143,6 +179,9 @@
 			enabled = true
 
 		[modules.tools.infinity_saw]
+			enabled = true
+
+		[modules.tools.infinity_backpack]
 			enabled = true
 
 		[modules.tools.infinity_hammer]

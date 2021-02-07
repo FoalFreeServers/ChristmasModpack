@@ -38,25 +38,25 @@ craftingTable.removeRecipe(<item:embellishcraft:diorite_paving>);
 craftingTable.addShaped("ct_embellishcraft_diorite_paving", <item:embellishcraft:diorite_paving> * 4, [[<item:minecraft:polished_diorite>, air, <item:minecraft:polished_diorite>], [air, air, air], [<item:minecraft:polished_diorite>, air, <item:minecraft:polished_diorite>]]);
 
 craftingTable.removeRecipe(<item:pamhc2foodcore:carrotbreaditem>);
-craftingTable.addShapeless("ct_pamhc2foodcore_carrotbreaditem", <item:pamhc2foodcore:carrotbreaditem>, [<tag:forge:tool_bakeware>, <tag:forge:crops/carrot>, <tag:forge:crops/carrot>,  <tag:forge:dough>]);
+craftingTable.addShapeless("ct_pamhc2foodcore_carrotbreaditem", <item:pamhc2foodcore:carrotbreaditem>, [<tag:items:forge:tool_bakeware>, <tag:items:forge:crops/carrot>, <tag:items:forge:crops/carrot>,  <tag:items:forge:dough>]);
 
 craftingTable.removeRecipe(<item:embellishcraft:red_sandstone_bricks>);
 craftingTable.addShaped("ct_embellishcraft_red_sandstone_bricks", <item:embellishcraft:red_sandstone_bricks> * 4, [[<item:minecraft:cut_red_sandstone>, air, <item:minecraft:cut_red_sandstone>], [air, air, air], [<item:minecraft:cut_red_sandstone>, air, <item:minecraft:cut_red_sandstone>]]);
 
 craftingTable.removeRecipe(<item:pamhc2foodcore:pumpkinbreaditem>);
-craftingTable.addShapeless("ct_pamhc2foodcore_pumpkinbreaditem", <item:pamhc2foodcore:pumpkinbreaditem>, [<tag:forge:tool_bakeware>, <tag:forge:crops/pumpkin>, <tag:forge:crops/pumpkin>, <tag:forge:dough>]);
+craftingTable.addShapeless("ct_pamhc2foodcore_pumpkinbreaditem", <item:pamhc2foodcore:pumpkinbreaditem>, [<tag:items:forge:tool_bakeware>, <tag:items:forge:crops/pumpkin>, <tag:items:forge:crops/pumpkin>, <tag:items:forge:dough>]);
 
 craftingTable.removeRecipe(<item:quark:dirty_glass>);
 craftingTable.addShaped("ct_quark_dirty_glass", <item:quark:dirty_glass>, [[<item:quark:dirty_shard>, <item:quark:dirty_shard>, air], [<item:quark:dirty_shard>, <item:quark:dirty_shard>, air], [air, air, air]]);
 
 craftingTable.removeRecipe(<item:embellishcraft:iron_beam>);
-craftingTable.addShaped("ct_embellishcraft_iron_beam", <item:embellishcraft:iron_beam> * 3, [[air, <tag:forge:ingots/iron>, air], [air, <tag:forge:ingots/iron>, air], [air, <tag:forge:ingots/iron>, air]]);
+craftingTable.addShaped("ct_embellishcraft_iron_beam", <item:embellishcraft:iron_beam> * 3, [[air, <tag:items:forge:ingots/iron>, air], [air, <tag:items:forge:ingots/iron>, air], [air, <tag:items:forge:ingots/iron>, air]]);
 
 craftingTable.removeRecipe(<item:appliedenergistics2:wooden_gear>);
-craftingTable.addShaped("ct_appliedenergistics2_wooden_gear", <item:appliedenergistics2:wooden_gear>, [[air, <tag:forge:rods/wooden>, air], [<tag:forge:rods/wooden>, <tag:minecraft:planks>, <tag:forge:rods/wooden>], [air, <tag:forge:rods/wooden>, air]]);
+craftingTable.addShaped("ct_appliedenergistics2_wooden_gear", <item:appliedenergistics2:wooden_gear>, [[air, <tag:items:forge:rods/wooden>, air], [<tag:items:forge:rods/wooden>, <tag:items:minecraft:planks>, <tag:items:forge:rods/wooden>], [air, <tag:items:forge:rods/wooden>, air]]);
 
 craftingTable.removeRecipe(<item:pamhc2foodcore:rolleritem>);
-craftingTable.addShaped("ct_pamhc2foodcore_rolleritem", <item:pamhc2foodcore:rolleritem>, [[air, <tag:forge:rods/wooden>, air], [air, <tag:minecraft:logs>, air], [air, <tag:forge:rods/wooden>, air]]);
+craftingTable.addShaped("ct_pamhc2foodcore_rolleritem", <item:pamhc2foodcore:rolleritem>, [[air, <tag:items:forge:rods/wooden>, air], [air, <tag:items:minecraft:logs>, air], [air, <tag:items:forge:rods/wooden>, air]]);
 
 craftingTable.removeRecipe(<item:quark:shingles>);
 craftingTable.addShaped("ct_quark_shingles", <item:quark:shingles> * 3, [[air, air, air], [<item:minecraft:terracotta>, <item:minecraft:terracotta>, air], [air, air, <item:minecraft:terracotta>]]);
