@@ -1,32 +1,3 @@
-# Mixins? Coremods? ATs? What are those?
-
-## [Mixins](https://github.com/SpongePowered/Mixin)
-
-Mixins are a type of Coremod that use Injection in order to coremod the game using only necessary code instead of a full coremod.
-
-Mixins were written by our good friend Mumfrey.
-
-They essentially inject other people's code into the game code. This is mostly commonly done to override game logic in order to help their mod along.
-
-Most Mixins could be integrated into Forge proper, but people don't do it.
-
-## [CoreMods](https://github.com/MinecraftForge/CoreMods)
-
-CoreMods are able to transform the game more heavily than Mixins.
-
-Without getting into the technical detail, They can essentially write new code into Minecraft's vanilla classes without needing to worry about dealing with Mixins.
-
-These are the worst type of vanilla modifying code, since they can overwrite large portions of the game and make it difficulty to debug crashes and bugs.
-
-## [Access Transformers (ATs)](https://mcforge.readthedocs.io/en/latest/advanced/accesstransformers/)
-
-Access Transformers, or ATs are the most friendly type of coremod.
-
-An Access Transformer simply modifies the [access modifiers](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html) in Java. For example, a `public` method can be called by any package or class, but a `protected` method can only be called by a subclass, or a class in the same package.
-
-An Access Transformer simply changes this access modifier to allow it to be more friendly without having to use slow and nasty [reflection](https://www.oracle.com/technical-resources/articles/java/javareflection.html).
-
-
 # Mods
 
 | Mod Name | Version | Description | No Mixins? | No Coremods? | No ATs? |
@@ -133,3 +104,31 @@ An Access Transformer simply changes this access modifier to allow it to be more
 | [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap) | 21.2.0.2 | Adds Minimap | ✔️ | ❌ | ✔️ |
 | [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map) | 1.11.11.2 | Adds World Map | ✔️ | ❌ | ✔️ |
 | [YUNG's API](https://www.curseforge.com/minecraft/mc-mods/yungs-api) | 4 | This is a library mod for some of YUNG's Forge mods. It's basically a collection of shared utility functions and data abstractions. | ✔️ | ✔️ | ✔️ |
+
+# Mixins? Coremods? ATs? What are those?
+
+## [Mixins](https://github.com/SpongePowered/Mixin)
+
+Mixins are a type of Coremod that use Injection in order to coremod the game using only necessary code instead of a full coremod.
+
+Mixins were written by our good friend Mumfrey.
+
+They essentially inject other people's code into the game code. This is mostly commonly done to override game logic in order to help their mod along.
+
+Most Mixins could be integrated into Forge proper, but people don't do it.
+
+## [CoreMods](https://github.com/MinecraftForge/CoreMods)
+
+CoreMods are able to transform the game more heavily than Mixins.
+
+Without getting into the technical detail, They can essentially write new code into Minecraft's vanilla classes without needing to worry about dealing with Mixins.
+
+These are the worst type of vanilla modifying code, since they can overwrite large portions of the game and make it difficulty to debug crashes and bugs.
+
+## [Access Transformers (ATs)](https://mcforge.readthedocs.io/en/latest/advanced/accesstransformers/)
+
+Access Transformers, or ATs are the most friendly type of coremod.
+
+An Access Transformer simply modifies the [access modifiers](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html) in Java. For example, a `public` method can be called by any package or class, but a `protected` method can only be called by a subclass, or a class in the same package.
+
+An Access Transformer simply changes this access modifier to allow it to be more friendly without having to use slow and nasty [reflection](https://www.oracle.com/technical-resources/articles/java/javareflection.html).
