@@ -76,18 +76,18 @@
 [jade]
 	#Amount of of jade pocket being generated [0-100, default: 5]
 	#Range: 0 ~ 100
-	jadeChance = 2
+	jadeChance = 6
 	#Maximal height for jade pocket generation, must be higher than minimal height [1-255, default: 100]
 	#Range: 1 ~ 255
-	jadeMaxHeight = 120
+	jadeMaxHeight = 100
 	#Generate jade in the world [true / false]
 	jadeGeneration = true
 	#Minimal height for jade pocket generation, [1-254, default: 50]
 	#Range: 1 ~ 254
-	jadeMinHeight = 50
+	jadeMinHeight = 20
 	#Size of jade pockets [0-100, default: 15]
 	#Range: 0 ~ 100
-	jadeSize = 8
+	jadeSize = 10
 
 #Larvikite Generation
 [larvikite]
